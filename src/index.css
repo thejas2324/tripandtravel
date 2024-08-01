@@ -1,0 +1,554 @@
+.custom-btn {
+  width: 13rem;
+  margin: 10px;
+  height: 40px;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.btn-10 {
+  background: rgb(22, 9, 240);
+  background: linear-gradient(
+    0deg,
+    rgba(22, 9, 240, 1) 0%,
+    rgba(49, 110, 244, 1) 100%
+  );
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.btn-10:after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+  -webkit-transform: scale(0.1);
+  transform: scale(0.1);
+}
+
+.btn-10:hover {
+  color: #fff;
+  border: none;
+  background: transparent;
+}
+
+.btn-10:hover:after {
+  background: rgb(0, 3, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 126, 251, 1) 0%,
+    rgba(0, 3, 255, 1) 100%
+  );
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+@media screen and (min-width: 280px) and (max-width: 980px) {
+  .custom-btn {
+    width: 7rem;
+    margin: 4px;
+    height: 40px;
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 5px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: small;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+      7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+
+  .btn-10 {
+    background: linear-gradient(
+      0deg,
+      rgba(22, 9, 240, 1) 0%,
+      rgba(49, 110, 244, 1) 100%
+    );
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+}
+
+.car_photos {
+  width: 100%;
+  height: 80vh;
+}
+
+* {
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    line-height: 1.2;
+    color: rgb(18 129 183);
+  }
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.icon-list {
+  display: flex;
+  align-items: center;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    overflow: hidden;
+  }
+}
+
+table-bordered {
+  border: 1px solid #ddd;
+}
+
+.bg-light {
+  background-color: #f8f8f8;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+/* Radio button styles */
+
+input[type="radio"] {
+  border: 1px solid rgba(0, 255, 0, 0.3);
+  margin-right: 10px;
+}
+
+/* Popover styles */
+
+.position-relative {
+  position: relative;
+}
+
+.btn-light {
+  background-color: #f8f8f8;
+}
+
+/* Date box styles */
+
+.date-box-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 0.5rem;
+}
+
+.date-box {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  width: 100px;
+  height: 100px;
+  padding: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.date-info {
+  text-align: center;
+}
+
+.date-day {
+  font-weight: bold;
+  font-size: 15px;
+  color: #333;
+}
+
+.date-date {
+  font-size: 15px;
+  color: #555;
+}
+
+.date-price {
+  font-size: 18px;
+  color: green;
+}
+
+/* Additional styling for travel booking appearance */
+
+.date-box:hover {
+  background-color: #fcf2e4;
+  transform: scale(1.05);
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.date-box-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.date-box-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.date-box-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.itinerary-modal {
+  max-width: 800px;
+  /* Adjust the desired width */
+  width: 90%;
+}
+
+/* Add these styles to your existing CSS or a separate CSS file */
+
+/* For small screens, such as mobile devices */
+
+@media (max-width: 576px) {
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .icon-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .icon-item {
+    flex-direction: row;
+  }
+}
+
+/* For medium-sized screens, like tablets */
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 420px) {
+  .icon-item {
+    flex-direction: row;
+  }
+}
+
+/* For large screens, such as desktops */
+
+@media (min-width: 992px) {
+  .icon-list {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .icon-item {
+    flex: 0 0 auto;
+  }
+}
+
+/* App.css */
+
+/* Navigation bar styles */
+
+nav {
+  background-color: #f8f2f2;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0e0d0d;
+  position: relative;
+}
+
+nav a:hover,
+nav a.active {
+  text-decoration: none;
+  color: #2906f0;
+}
+
+nav a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition: transform 0.2s;
+  background-color: #0a1afa;
+}
+
+nav a.active:after {
+  transform: scaleX(1);
+}
+
+/* Content container styles */
+
+.content-container {
+  margin: 20px;
+}
+
+/* Add specific styles for your section components here */
+
+.menu-icon {
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: none;
+  /* Hide by default */
+  background-color: #fff;
+  /* Style as needed */
+  /* Add more styling as needed */
+}
+
+/* Media query to display the mobile menu when the screen is narrow */
+
+@media (max-width: 768px) {
+  .mobile-menu {
+    display: block;
+  }
+  .icon-item {
+    flex-direction: row;
+  }
+}
+
+.iconextra {
+  border-radius: 50%;
+  border: 1px solid #656565;
+  padding: 10px;
+  color: #0fcaf9;
+  background:#ffffff;
+}
+.css-heg063-MuiTabs-flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ==========================mobile view================= */
+
+@media (max-width: 768px) {
+  .mobileGrid {
+    display: none;
+  }
+
+  .mobileGrid1 {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .mobileGrid2 {
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .mobileGrid3 {
+    margin-top: 220px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+@media (max-width: 1400px) {
+  .mobileGrid {
+    display: none;
+  }
+
+  .mobileGrid1 {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .mobileGrid2 {
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .mobileGrid3 {
+    margin-top: 220px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+.whatsapp {
+  display: flex;
+  align-items: center;
+  transition: transform 0.3sec ease-in-out;
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgb(15, 202, 15);
+  font-size: xx-large;
+  padding: 10px;
+  color: whitesmoke;
+}
+
+.whatsapp-container {
+  position: fixed;
+  top: 70%;
+  left: calc(100% - 60px);
+  list-style-type: none;
+  padding: 0;
+  transform: translateY(-50%);
+  width: 250px;
+  z-index: 10;
+}
+
+.whatsapp-container {
+  animation: wiggle 2s linear infinite;
+}
+
+.whatsapp-container {
+  border-radius: 0 0 0.2em 0.2em;
+  color: #fff;
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 1em;
+  transform-origin: 50% 5em;
+}
+
+/* @keyframes wiggle {
+      0%, 7% {
+        transform: rotateZ(0);
+      }
+      15% {
+        transform: rotateZ(-15deg);
+      }
+      20% {
+        transform: rotateZ(10deg);
+      }
+      25% {
+        transform: rotateZ(-10deg);
+      }
+      30% {
+        transform: rotateZ(6deg);
+      }
+      35% {
+        transform: rotateZ(-4deg);
+      }
+      40%, 100% {
+        transform: rotateZ(0);
+      }
+      } */
+
+.phonecall {
+  display: flex;
+  align-items: center;
+  transition: transform 0.3sec ease-in-out;
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgb(251, 252, 255);
+  font-size: xx-large;
+  color: #068FFF;
+  padding: 10px;
+}
+
+.phone-container {
+  position: fixed;
+  top: 80%;
+  left: calc(100% - 60px);
+  list-style-type: none;
+  padding: 0;
+  transform: translateY(-50%);
+  width: 250px;
+  z-index: 10;
+}
+
+.phone-container {
+  animation: wiggle 2s linear infinite;
+}
+
+.phone-container {
+  border-radius: 0 0 0.2em 0.2em;
+  color: #fff;
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 1em;
+  transform-origin: 50% 5em;
+}
+
+

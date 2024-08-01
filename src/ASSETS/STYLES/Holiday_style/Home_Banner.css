@@ -1,0 +1,174 @@
+
+
+.hm_background {
+  height: 100%;
+}
+
+.hm_img {
+  width: 100%;
+  filter: brightness(60%);
+}
+
+.hm_content {
+  content: "";
+  height: 78%;
+  width: 100%;
+  position: relative;
+  margin-top:-200px ;
+  z-index: 10;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: rgb(18 129 183);
+}
+
+.hm_content .hm_title {
+  color: white;
+}
+
+.hm_content .hm_title .hm_h1 {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+}
+
+.hm_content .hm_title .hm_p {
+  text-align: center;
+  padding: 0 30vw;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.hm_search {
+  display: flex;
+
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.hm_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* padding: 0 1.5rem; */
+}
+
+/* .hm_label {
+  font-size: 1.1rem;
+  color: #03045e;
+} */
+
+input {
+  background-color: transparent;
+  /* border: none; */
+  text-align: center;
+  color: black;
+}
+
+/* input[type="date"] {
+  padding-left: 3rem;
+} */
+
+input::placeholder {
+  color: black;
+}
+
+input:focus {
+  outline: none;
+}
+
+
+.hm_button {
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  border: none;
+  color: white;
+  background-color: #4361ee;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+
+
+.hm_button:hover {
+  background-color: #023e8a;
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 980px) {
+  /* height: 25rem; */
+
+  .hm_background {
+    background-color: palegreen;
+  }
+
+  .hm_img {
+    height: 100%;
+  }
+
+
+  .hm_content .hm_title .hm_h1 {
+    font-size: 1rem;
+  }
+
+  .hm_content {
+    content: "";
+    height: 78%;
+    width: 100%;
+    position: relative;
+    margin-top:0px ;
+    z-index: 10;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: rgb(18 129 183);
+  }
+
+
+
+
+  .hm_content .hm_title .hm_p {
+    font-size: 0.8rem;
+    padding: 1vw;
+  }
+
+
+  .hm_search {
+    flex-direction: column;
+    padding: 0.8rem;
+    gap: 0.8rem;
+    
+    
+  }
+
+  /* padding: 0; */
+  .hm_search .hm_container {
+    padding: 0 0.8rem;
+  }
+
+  input[type="date"] {
+    padding-left: 1rem;
+  }
+
+
+  .hm_button {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .hm_content .hm_title {
+    color: rgb(2, 2, 2);
+  }
+}
+

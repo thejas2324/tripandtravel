@@ -1,0 +1,14 @@
+.nav-link {
+    
+    padding: 20px;
+}
+.navbarcss{
+    
+}
+
+nav.bg-body-tertiary.navbarcss.navbar.navbar-expand-lg.navbar-light.bg-light {
+    position: fixed;
+    z-index: 15;
+    width: 100%;
+    height: 100px;
+}

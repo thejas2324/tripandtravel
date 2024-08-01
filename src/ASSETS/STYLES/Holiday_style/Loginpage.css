@@ -1,0 +1,111 @@
+.loginbutton {
+  border: 0px;
+  outline: 0px;
+  background-color: rgb(255, 109, 56);
+  height: 3rem;
+  width: 10rem;
+ 
+  float: right;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 3rem;
+  color: white;
+  /* font-size: 150%; */
+  font-weight: bold;
+
+}
+.socialbutton {
+  
+  border: 0px;
+  outline: 0px;
+  background-color: blue;
+  height: 3rem;
+  width: 8rem;
+  cursor: pointer;
+  border-radius: 3rem;
+  color: white;
+  /* font-size: 150%; */
+  font-weight: bold;
+
+}
+.twitterbutton {
+  
+  border: 0px;
+  outline: 0px;
+  background-color: skyblue;
+  height: 3rem;
+  width: 8rem;
+  cursor: pointer;
+  border-radius: 3rem;
+  color: white;
+  /* font-size: 150%; */
+  font-weight: bold;
+
+}
+.Instagrambutton{
+  border: 0px;
+  outline: 0px;
+  background-color: lightcoral;
+  height: 3rem;
+  width: 8rem;
+  cursor: pointer;
+  border-radius: 3rem;
+  color: white;
+  /* font-size: 150%; */
+  font-weight: bold;
+
+}
+.buttonss{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  text-align: center;
+  align-items: center;
+}
+@media screen and (max-width:640px) {
+  .buttonss{
+      flex-direction: column;
+  }
+  
+}
+.pp{
+  color: grey;
+}
+.signme2{
+  background-color: rgb(112, 164, 216);
+  text-align: center;
+  /* width:fit-content; */
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+
+  border: 1px solid white;
+
+}
+.loginpart1{
+  width: 100%;
+  /* background-color: lightblue; */
+  border: 1px solid gray;
+  border-radius: 7px;
+  padding: 10px;
+}
+.merglogin{
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width:640px) {
+  .merglogin{
+      flex-direction: column;
+  }
+  
+}
+.down{
+  display: inline-flex;
+  padding-top: 17px;
+}
+.down:hover{
+color:aqua
+
+}
+

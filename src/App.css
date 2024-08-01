@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.section-title a {
+  margin-top: 32px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .btn {
+    height: 42px;
+    line-height: 42px;
+  }
+}
+
+@media (max-width: 1550px) {
+  .btn {
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 22px;
+  }
+}
+
+.btn-yellow {
+  background: var(--main-color-one);
+  color: #ffffff;
+}
+
+.btn {
+  height: 52px;
+  line-height: 52px;
+
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  border: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+
+.Images {
+  background-image: url(../src/ASSETS/IMAGES/photo-1.avif);
+}
+
+.size {
+  font-size: 86px;
+}
+
+.navbar-custom .navbar .navbar-expand-lg .navbar-light {
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.Holiday_container {
+  height: 350px;
+  width: 300px;
+  background-color: none;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 3px 15px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  /* margin-left: 20px;
+  margin-right: 13px; */
+
+  overflow: hidden;
+}
+.card {
+  background-color: none;
+}
+.slick-next {
+  right: 0px;
+}
+.slick-Prev {
+  left: 0px;
+}
+
+.rounded-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 38%;
+}
+
+.contain .card {
+  position: relative;
+  max-width: 300px;
+
+  background-color: #fff;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+  border-radius: 15px;
+}
+
+.contain .card .image {
+  position: relative;
+  width: 260px;
+  height: 260px;
+
+  top: -40%;
+  left: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.contain .card .image img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.contain .card .content {
+  position: relative;
+  top: -140px;
+  padding: 10px 15px;
+  color: #111;
+  text-align: center;
+
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.contain .card:hover .content {
+  margin-top: 30px;
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
+.modal-backdrop.show {
+  --bs-backdrop-bg: #fcfdfe;
+  --bs-backdrop-opacity: -12.5;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bs-backdrop-bg);
+  box-shadow: 10px 10px 10px 10px;
+}
+
+.fromss {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.hm_contente {
+  content: "";
+  height: 78%;
+  width: 100%;
+  position: relative;
+  margin-top: -200px;
+  z-index: 10;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: rgb(18 129 183);
+}
+
+.bgimages {
+  background-image: url("https://www.responsibletravel.com/imagesclient/L_137041.jpg");
+}
+#navbar.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}

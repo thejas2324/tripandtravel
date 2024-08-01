@@ -1,0 +1,37 @@
+.imjn {
+    width: 100px;
+    height: 100px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .single-intro.style-two {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1550px) {
+    .single-intro.style-two {
+        margin-bottom: 30px;
+    }
+}
+
+.single-intro.style-two {
+    padding: 0 15px;
+}
+
+@media only screen and (max-width: 1550px) {
+    .single-intro {
+        padding: 0 0;
+        margin-bottom: 35px;
+    }
+}
+
+.single-intro {
+    padding: 0 52px;
+    margin-bottom: 30px;
+}
+
+hr.title_dash {
+    width: 100px;
+    border: 1px solid red
+}

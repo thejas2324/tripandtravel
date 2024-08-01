@@ -1,0 +1,22 @@
+.login-section {
+    background-color: #f8f9fa; /* Set a light background color */
+    padding: 50px 0; /* Add some padding to the section */
+  }
+  
+  .welcome-text {
+    color: #8b75ea;
+    text-align: center;
+  }
+  
+  .otp-button,
+  .register-button {
+    background-color: #8b75ea; /* Set a primary color for the buttons */
+    color: #ffffff; /* Set text color for buttons */
+    width: 100%; /* Make buttons full-width */
+  }
+  
+  .otp-button:disabled,
+  .register-button:disabled {
+    background-color: #c0c0c0; /* Change button color when disabled */
+  }
+  

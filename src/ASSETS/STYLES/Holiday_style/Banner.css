@@ -1,0 +1,53 @@
+.banner-hero-img {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    background-image: url('../../IMAGES/about_img2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    position: relative;
+}
+
+/* .banner-hero-img::before {
+    content: "";
+    background: url('../IMAGES/about_img2.png');
+    background-size: cover;
+    background-position: center top;
+    z-index: -1;
+    height: 0%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+
+} */
+
+.banner-hero-img h1 {
+    font-size: 2.4rem ;
+    font-weight: bolder;
+}
+
+
+.banner-hero-img p {
+    font-size: 1.4rem ;
+    text-align: center;    
+}
+
+@media screen and (max-width:640px) {
+    .banner-hero-img h1 {
+        font-size: 2rem ;
+        
+    }
+
+    
+}
+
+
+.heading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

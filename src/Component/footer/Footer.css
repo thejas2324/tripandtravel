@@ -1,0 +1,151 @@
+.footer-area {
+    /* position: relative; */
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1D267D;
+
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+footer-area .widget {
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+
+.col-lg-4 {
+    -webkit-box-flex: 0;
+   
+ 
+    /* max-width: 33.333333%; */
+}
+
+.about_us_widget .footer-logo img {
+    width: 220px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.about_us_widget .footer-logo {
+    width: 120px;
+    height: auto;
+}
+
+.about_us_widget .footer-logo {
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+.about_us_widget p,
+.widget-contact p span,
+.widget_nav_menu li a {
+    color: #fffcfc;
+}
+
+.about_us_widget p {
+    margin-bottom: 30px;
+}
+
+p {
+    color: var(--paragraph-color);
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    margin-bottom: 10px;
+}
+
+
+.about_us_widget .social-icon li:first-child {
+    margin-left: 0;
+}
+
+.social-icon li {
+    display: inline-block;
+    /* margin: 0 5px; */
+}
+
+.social-icon li {
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    display: inline-block;
+    border-radius: 50%;
+
+    /* line-height: 48px; */
+    border: 2px solid rgba(255, 255, 255, 0.2);
+
+    color: #f7f0f0;
+}
+
+.footer-area .widget {
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+
+.footer-area .widget-title {
+    color: #fbf8f8;
+    margin-bottom: 25px;
+    padding-left: 0;
+}
+
+.footer-area .about_us_widget {
+    padding-right: 0;
+}
+
+.footer-area .about_us_widget {
+    padding-right: 5px;
+}
+
+.icon {
+    vertical-align: middle;
+    width: 47px;
+    height: 33px;
+    /* margin-top: 6px; */
+
+}
+
+.ftr_a,
+.ftr_a:hover,
+.ftr_a:focus,
+.ftr_a:active {
+    text-decoration: none;
+    outline: none;
+    color: lightcyan;
+}
+
+/* row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -194px;
+    margin-left: -25px;
+} */

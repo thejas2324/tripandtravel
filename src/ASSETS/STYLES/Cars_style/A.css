@@ -1,0 +1,287 @@
+
+
+.blackText {
+    color: #000;
+}
+
+.cabListingTileWrapper {
+    background-color: #fff;
+    border: 1px solid #bababa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(138, 107, 118, .08);
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    min-height: 180px;
+    position: relative;
+}
+
+.makeFlex {
+    display: flex;
+}
+
+.cabListingTileWrapper .cabImage {
+    height: 60px;
+    margin: 30px;
+    width: 120px;
+}
+
+.vehicleRydeTagContainer {
+    left: 0;
+    position: relative;
+    top: 0;
+}
+
+.appendTopNeg13 {
+    margin-top: -13px;
+}
+
+.vehicleImg {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+/* img {
+    width: 100%;
+    height: 100%;
+} */
+
+.makeFlex.spaceBetween {
+    justify-content: space-between;
+}
+
+
+.cabListingTileWrapper .cabDetails {
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 25px;
+    padding: 15px 0;
+}
+
+.makeFlex.end {
+    align-items: center;
+}
+
+ .appendRight5 {
+    margin-right: 5px;
+}
+
+.latoBlack {
+    font-weight: 900;
+}
+
+.font20 {
+    font-size: calc(var(--font-scale, 1) * 20px);
+    line-height: 20px;
+}
+
+ .appendRight10 {
+    margin-right: 10px;
+}
+
+.latoRegular {
+    font-weight: 400;
+}
+
+.font14 {
+    font-size: calc(var(--font-scale, 1) * 14px);
+    line-height: 14px;
+}
+
+.appendBottom2 {
+    margin-bottom: 2px;
+}
+
+.dustyGrayColor {
+    color: #9b9b9b;
+}
+
+.makeFlex.baseline {
+    align-items: baseline;
+}
+
+
+.whiteText {
+    color: #ffffff;
+}
+
+.makeRelative {
+    position: relative;
+}
+
+.ratingGreenGradientBg {
+    background: linear-gradient(63deg, #26bd99, #219393);
+}
+
+.borderRadius2 {
+    border-radius: 2px;
+}
+
+.paddingTB2 {
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.paddingLR4 {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+
+.font11 {
+    font-size: calc(var(--font-scale, 1) * 11px);
+    line-height: 11px;
+}
+
+ .appendLeft5 {
+    margin-left: 5px;
+}
+
+.alignEnd {
+    align-items: flex-end;
+}
+
+.rowReverse {
+    flex-direction: row-reverse;
+}
+
+.font12 {
+    font-size: calc(var(red, 1) * 12px);
+    line-height: 12px;
+}
+
+.dustyGrayColor {
+    color: #9b9b9b;
+}
+
+.makeFlex.hrtlCenter {
+    align-items: center;
+}
+
+.makeFlex.hrtlCenter {
+    align-items: center;
+}
+
+
+.appendTop5 {
+    margin-top: 5px;
+}
+
+.makeFlex.hrtlCenter {
+    align-items: center;
+}
+
+.makeFlex.hrtlCenter {
+    align-items: center;
+}
+
+.makeFlex.hrtlCenter {
+    align-items: center;
+}
+
+
+
+.appendTop20 {
+    margin-top: 20px;
+}
+
+.font16 {
+    font-size: calc(var(--font-scale, 1) * 16px);
+    line-height: 16px;
+}
+
+.width100percent {
+    width: 100%;
+}
+
+.appendBottom10 {
+    margin-bottom: 10px;
+}
+
+.dottedwidthOverflowwithoutFilter {
+    width: 70%;
+}
+
+ .appendRight20 {
+    margin-right: 20px;
+}
+
+.appendTop15 {
+    margin-top: 15px;
+}
+
+.appendBottom15 {
+    margin-bottom: 15px;
+}
+
+.persuasion .iconContainer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-width: 20px;
+}
+
+.size18by18 {
+    height: 18px;
+    width: 18px;
+}
+
+ .textRight {
+    text-align: right;
+}
+
+.makeFlex.column {
+    flex-direction: column;
+    padding: 5px;
+}
+
+
+
+.appendBottom5 {
+    margin-bottom: 5px;
+}
+
+
+
+
+.font28 {
+    font-size: calc(var(--font-scale, 1) * 28px);
+    line-height: 28px;
+}
+
+
+.font16 {
+    font-size: calc(var(--font-scale, 1) * 16px);
+    line-height: 16px;
+}
+
+.appendBottom5 {
+    margin-bottom: 5px;
+}
+
+.cabListingTileWrapper .viewPricesbtn {
+    background-image: linear-gradient(96deg, #53b2fe 1%, #065af3 129%);
+    border-radius: 18px;
+    box-shadow: 0 1px 7px 0 rgba(0, 0, 0, .2);
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.cabListingTileWrapper .arrow.arrow-down-wide,
+.cabListingTileWrapper .arrow.arrow-top-wide {
+    border-color: currentcolor;
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 8px;
+    margin: -3px 6px auto;
+    padding: 2px;
+    -webkit-transform: rotate(135deg) skew(7deg, 7deg);
+    transform: rotate(135deg) skew(7deg, 7deg);
+    transition: all .2s linear;
+    width: 8px;
+}

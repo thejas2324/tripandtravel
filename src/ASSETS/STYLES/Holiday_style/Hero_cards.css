@@ -1,0 +1,139 @@
+
+
+.hero_container {
+  height: 350px;
+  width: 350px;
+  background-color: #eaebf1;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 3px 15px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  margin-left: 20px;
+  margin-right: 13px;
+
+  overflow: hidden;
+}
+
+.hero_container:hover{
+
+}
+
+.trending_container{
+  position: relative;
+    top: -17rem;
+}
+.author {
+  font-size: .9rem;
+  color: #ffa75f;
+  font-family: 'gg sans SemiBold', sans-serif;
+  float: left;
+  margin-block-end: -10px;
+}
+.time {
+  font-size: .7rem;
+  color: #b6bac1;
+  margin-top: 6px;
+  margin-left: 15px;
+  float: left;
+}
+
+.header {
+  clear: both;
+  /* font-size: 1rem; */
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  
+}
+
+/* .photo {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  border-radius: 10px;
+ background-image: url("https://global-uploads.webflow.com/5e157547d6f791d34ea4e2bf/63297381e8989d562186fe8c_home-feature-tool.webp");
+} */
+.category {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 20px;
+  font-size: .7rem;
+  font-family: 'gg sans SemiBold', sans-serif;
+  background-color: rgba(50, 51, 56, 0.8);
+  border-radius: 100px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.comments {
+  margin-top: 20px;
+  color: #b6bac1;
+}
+/* .comments svg{
+  width: 13px;
+  fill: #4f5058;
+  float: left;
+} */
+.comments p{
+    font-size: .9rem;
+    margin-left: 13px;
+    margin-top: 17px;
+    float: left;
+
+}
+
+.reactions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 2px 5px 2px 5px;
+  height: 20px;
+  background-color: #2b2d31;
+  margin-top: -7px;
+  float: right;
+  border-radius: 10px;
+  color: #b6bac1;
+  font-size: .65rem;
+  transition: all .1s ease-in-out;
+  border: 1px solid transparent;
+}
+
+.reactions:hover {
+  border-color: #58595d;
+  background-color: #303136;
+  color: #d6d8db;
+}
+
+.hero_container:hover {
+  background-color: #35353a;
+  border: 1px solid #3d3d42;
+  transform: translateY(-3px);
+  box-shadow: 0px 10px 15px -8px rgba(0, 0, 0, 0.4);
+  transition: all .2s ease-in-out;
+}
+
+@media screen and (min-width: 280px) and (max-width: 980px) {
+  .trending_container{
+    position: relative;
+      top:0px;
+      
+  }
+  .hero_container {
+    height: 250px;
+    width: 250px;
+  
+  }
+}
+.cards_space{
+  justify-self: center;
+  justify-content: center;
+}
